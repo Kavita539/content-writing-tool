@@ -1,10 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import TextEditor from './Pages/Editor';
 
 function App() {
   return (
     <div className="App">
-      Hello
+      <TextEditor />
     </div>
   );
 }
